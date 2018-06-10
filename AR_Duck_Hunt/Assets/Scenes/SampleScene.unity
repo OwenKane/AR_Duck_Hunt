@@ -450,7 +450,7 @@ BoxCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1031675985}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
@@ -504,8 +504,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1031675985}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3.44, y: 32.74, z: 28.78}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 14.53, y: 33.58, z: 28.78}
+  m_LocalScale: {x: 1.4459639, y: 1.3552092, z: 1.421518}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 2
@@ -724,7 +724,7 @@ Camera:
     height: 1
   near clip plane: 0.05
   far clip plane: 2000
-  field of view: 60
+  field of view: 66
   orthographic: 0
   orthographic size: 5
   m_Depth: 1
@@ -800,7 +800,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c680bd3aebc7d4cd696038c5c73b3d1b, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.099999994
+      value: -0.828
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c680bd3aebc7d4cd696038c5c73b3d1b, type: 3}
       propertyPath: m_LocalRotation.x
@@ -838,6 +838,10 @@ Prefab:
       propertyPath: m_Controller
       value: 
       objectReference: {fileID: 9100000, guid: 8f54f28ab55b14732ad30b5faa1bf770, type: 2}
+    - target: {fileID: 400014, guid: c680bd3aebc7d4cd696038c5c73b3d1b, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.2263
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c680bd3aebc7d4cd696038c5c73b3d1b, type: 3}
   m_IsPrefabParent: 0
